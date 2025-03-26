@@ -14,15 +14,15 @@ public class Main {
      int numer = 0;
     switch(numer) {
       case 1:
-        // code block
+        
         break;
       case 2:
-        // code block
+        
         break;
       case 3:
         
       default:
-        // code block
+        
     }
   
   
