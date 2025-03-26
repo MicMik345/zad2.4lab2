@@ -1,14 +1,26 @@
-// import static org.junit.jupiter.api.Assertions.assertEquals;
-
-// import org.junit.jupiter.api.Test;
+import java.util.Scanner;
 
 public class Main {
   public static void main(String[] args) {
-    System.out.println("Hello world!");
-  }
+    Scanner scanner = new Scanner(System.in);
+    System.out.println("Podaj 1 liczbe:");
+    int a = scanner.nextInt();
+    System.out.println("Podaj 2 liczbe:");
+    int b = scanner.nextInt();
+    System.out.println("Podaj 2 liczbe:");
+    int c = scanner.nextInt();
 
-  // @Test
-  // void addition() {
-  //     assertEquals(2, 1 + 1);
-  // }
+    int max = Math.max(a, Math.max(b, c));
+    int min = Math.min(a, Math.min(b, c));
+
+    System.out.println("Największa liczba: " + max);
+    System.out.println("Najmniejsza liczba: " + min);
+  
+  
+  
+  
+  
+  
+  
+  }
 }
