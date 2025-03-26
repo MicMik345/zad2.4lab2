@@ -1,21 +1,27 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class Main {
   public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    System.out.println("Podaj 1 liczbe:");
-    int a = scanner.nextInt();
-    System.out.println("Podaj 2 liczbe:");
-    int b = scanner.nextInt();
-    System.out.println("Podaj 2 liczbe:");
-    int c = scanner.nextInt();
+    
 
-    int max = Math.max(a, Math.max(b, c));
-    int min = Math.min(a, Math.min(b, c));
+    Random random = new Random();
 
-    System.out.println("Największa liczba: " + max);
-    System.out.println("Najmniejsza liczba: " + min);
-  
+    
+    
+    int rand1 = random.nextInt(50);
+    int rand2 = random.nextInt(50);
+    int rand3 = random.nextInt(50);
+    int rand4 = random.nextInt(50);
+    int rand5 = random.nextInt(50);
+   
+    
+
+    int suma = (rand1*rand1) + (rand2*rand2) + (rand3*rand3)+(rand4*rand4)+(rand5*rand5);
+    
+ 
+    System.out.println("Wylosowane liczby to: " + rand1 + ", " + rand2 + ", " + rand3 + ", " + rand4 + ", " + rand5);
+    System.out.println("Wynik sumy kwadratów to: " + suma);
   
   
   ///dsdasd
